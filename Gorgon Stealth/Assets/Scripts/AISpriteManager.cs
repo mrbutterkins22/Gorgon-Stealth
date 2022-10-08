@@ -21,6 +21,11 @@ public class AISpriteManager : MonoBehaviour
         transform.forward = cam.forward;
         if(mainSprite)
         {
+            int angle = Mathf.RoundToInt(transform.localEulerAngles.y / 90);
+            anim.SetInteger("angle", angle);
+            
+            
+
             if (rb.velocity.x != 0 || rb.velocity.z != 0)
             {
                 anim.SetBool("moving", true);

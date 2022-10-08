@@ -33,7 +33,7 @@ public class PlayerCam : MonoBehaviour
         if(Input.GetKeyUp(KeyCode.LeftControl))
         {
             topDown = false;
-            GameObject.Find("CameraPos").transform.localPosition = new Vector3(0, 0, 0);
+            GameObject.Find("CameraPos").transform.localPosition = new Vector3(0, 1.25f, 0);
         }
 
         if(!topDown)
