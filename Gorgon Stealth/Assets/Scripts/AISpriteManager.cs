@@ -11,7 +11,8 @@ public class AISpriteManager : MonoBehaviour
 
     private void Awake()
     {
-        cam = Camera.main.transform;
+        //cam = Camera.main.transform;
+        cam = GameObject.Find("Main Camera").transform;
         rb = transform.parent.gameObject.GetComponent<Rigidbody>();
         anim = GetComponent<Animator>();
     }

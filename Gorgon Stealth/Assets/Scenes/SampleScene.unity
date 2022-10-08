@@ -122,14 +122,14 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 4f43c747e6dd0f14683203b2cf6182a7, type: 2}
 --- !u!43 &10927999
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-13394
+  m_Name: pb_Mesh30392
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -298,7 +298,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24542
+  m_Name: pb_Mesh31614
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -489,7 +489,7 @@ Transform:
   - {fileID: 250956502}
   - {fileID: 1501109863}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &68818121
 GameObject:
@@ -509,8 +509,8 @@ GameObject:
   m_Name: Shadow L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &68818122
 MeshCollider:
@@ -1205,7 +1205,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh23954
+  m_Name: pb_Mesh30602
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1363,13 +1363,134 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1001 &140983532
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7273824614503538400, guid: c5dc4a46997c1314596bd5d9d87f2f1f, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273824614503538400, guid: c5dc4a46997c1314596bd5d9d87f2f1f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273824614503538400, guid: c5dc4a46997c1314596bd5d9d87f2f1f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273824614503538400, guid: c5dc4a46997c1314596bd5d9d87f2f1f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273824614503538400, guid: c5dc4a46997c1314596bd5d9d87f2f1f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273824614503538400, guid: c5dc4a46997c1314596bd5d9d87f2f1f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273824614503538400, guid: c5dc4a46997c1314596bd5d9d87f2f1f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273824614503538400, guid: c5dc4a46997c1314596bd5d9d87f2f1f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273824614503538400, guid: c5dc4a46997c1314596bd5d9d87f2f1f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273824614503538400, guid: c5dc4a46997c1314596bd5d9d87f2f1f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273824614503538400, guid: c5dc4a46997c1314596bd5d9d87f2f1f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273824614503538401, guid: c5dc4a46997c1314596bd5d9d87f2f1f, type: 3}
+      propertyPath: destinations.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273824614503538401, guid: c5dc4a46997c1314596bd5d9d87f2f1f, type: 3}
+      propertyPath: destinations.Array.data[0].x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273824614503538401, guid: c5dc4a46997c1314596bd5d9d87f2f1f, type: 3}
+      propertyPath: destinations.Array.data[0].y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273824614503538401, guid: c5dc4a46997c1314596bd5d9d87f2f1f, type: 3}
+      propertyPath: destinations.Array.data[0].z
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273824614503538401, guid: c5dc4a46997c1314596bd5d9d87f2f1f, type: 3}
+      propertyPath: destinations.Array.data[1].x
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273824614503538401, guid: c5dc4a46997c1314596bd5d9d87f2f1f, type: 3}
+      propertyPath: destinations.Array.data[1].y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273824614503538401, guid: c5dc4a46997c1314596bd5d9d87f2f1f, type: 3}
+      propertyPath: destinations.Array.data[1].z
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273824614503538401, guid: c5dc4a46997c1314596bd5d9d87f2f1f, type: 3}
+      propertyPath: destinations.Array.data[2].x
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273824614503538401, guid: c5dc4a46997c1314596bd5d9d87f2f1f, type: 3}
+      propertyPath: destinations.Array.data[2].y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273824614503538401, guid: c5dc4a46997c1314596bd5d9d87f2f1f, type: 3}
+      propertyPath: destinations.Array.data[2].z
+      value: -22
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273824614503538401, guid: c5dc4a46997c1314596bd5d9d87f2f1f, type: 3}
+      propertyPath: destinations.Array.data[3].x
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273824614503538401, guid: c5dc4a46997c1314596bd5d9d87f2f1f, type: 3}
+      propertyPath: destinations.Array.data[3].y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273824614503538401, guid: c5dc4a46997c1314596bd5d9d87f2f1f, type: 3}
+      propertyPath: destinations.Array.data[3].z
+      value: -22
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273824614503538401, guid: c5dc4a46997c1314596bd5d9d87f2f1f, type: 3}
+      propertyPath: destinations.Array.data[4].x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273824614503538401, guid: c5dc4a46997c1314596bd5d9d87f2f1f, type: 3}
+      propertyPath: destinations.Array.data[4].y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273824614503538401, guid: c5dc4a46997c1314596bd5d9d87f2f1f, type: 3}
+      propertyPath: destinations.Array.data[4].z
+      value: -20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273824614503538431, guid: c5dc4a46997c1314596bd5d9d87f2f1f, type: 3}
+      propertyPath: m_Name
+      value: target
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c5dc4a46997c1314596bd5d9d87f2f1f, type: 3}
 --- !u!43 &177919988
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-6298
+  m_Name: pb_Mesh30486
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1545,8 +1666,8 @@ GameObject:
   m_Name: Spawn Shadow Wall (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &190983509
 Transform:
@@ -1889,8 +2010,8 @@ GameObject:
   m_Name: Small Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &198813981
 Transform:
@@ -2403,7 +2524,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24408
+  m_Name: pb_Mesh31394
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2567,7 +2688,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-30996
+  m_Name: pb_Mesh30454
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3087,8 +3208,8 @@ GameObject:
   m_Name: Spawn Shadow Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &263671575
 MeshCollider:
@@ -3419,7 +3540,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24152
+  m_Name: pb_Mesh30912
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3595,8 +3716,8 @@ GameObject:
   m_Name: Non Shadow L (2)(Clone) (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &264441547
 Transform:
@@ -4303,8 +4424,8 @@ GameObject:
   m_Name: X (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &266600054
 Transform:
@@ -5557,8 +5678,8 @@ GameObject:
   m_Name: Shadow L (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &268411728
 Transform:
@@ -6253,7 +6374,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24020
+  m_Name: pb_Mesh30762
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -6417,7 +6538,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-37874
+  m_Name: pb_Mesh30646
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -6593,8 +6714,8 @@ GameObject:
   m_Name: Spawn Wall Pole (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &312940799
 Transform:
@@ -6925,7 +7046,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-32990
+  m_Name: pb_Mesh31464
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -7101,8 +7222,8 @@ GameObject:
   m_Name: X (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &362938385
 Transform:
@@ -8355,8 +8476,8 @@ GameObject:
   m_Name: U Wall(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &386155776
 Transform:
@@ -9597,7 +9718,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh23864
+  m_Name: pb_Mesh30360
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -9773,8 +9894,8 @@ GameObject:
   m_Name: Spawn Wall Pole
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &406030751
 Transform:
@@ -10105,7 +10226,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24250
+  m_Name: pb_Mesh31050
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -10281,8 +10402,8 @@ GameObject:
   m_Name: Spawn Shadow Wall (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &425684727
 Transform:
@@ -10613,7 +10734,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24480
+  m_Name: pb_Mesh31534
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -10777,7 +10898,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-27222
+  m_Name: pb_Mesh31310
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -10953,8 +11074,8 @@ GameObject:
   m_Name: Spawn Wall Pole (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &444206432
 Transform:
@@ -11285,7 +11406,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-8144
+  m_Name: pb_Mesh30468
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -11475,7 +11596,7 @@ Transform:
   - {fileID: 1508540830}
   - {fileID: 406030751}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &454124535
 Mesh:
@@ -11483,7 +11604,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-33424
+  m_Name: pb_Mesh30806
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -11659,8 +11780,8 @@ GameObject:
   m_Name: Spawn Shadow Wall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &456174142
 Transform:
@@ -12003,8 +12124,8 @@ GameObject:
   m_Name: Spawn Shadow Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &464072768
 Transform:
@@ -12347,8 +12468,8 @@ GameObject:
   m_Name: Spawn Wall Pole (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &505473419
 Transform:
@@ -12679,7 +12800,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24174
+  m_Name: pb_Mesh30942
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -12855,8 +12976,8 @@ GameObject:
   m_Name: Small Wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &543779062
 Transform:
@@ -13381,8 +13502,8 @@ GameObject:
   m_Name: Spawn Non-Shadow Wall (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &544309367
 Transform:
@@ -13725,8 +13846,8 @@ GameObject:
   m_Name: Shadow L (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &551003459
 Transform:
@@ -14421,7 +14542,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-9780
+  m_Name: pb_Mesh30548
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -14597,8 +14718,8 @@ GameObject:
   m_Name: Spawn Shadow Wall (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &571823463
 Transform:
@@ -14929,7 +15050,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-45350
+  m_Name: pb_Mesh31340
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -15093,7 +15214,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-42032
+  m_Name: pb_Mesh31412
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -15257,7 +15378,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-24804
+  m_Name: pb_Mesh30378
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -15532,7 +15653,7 @@ Transform:
   - {fileID: 2106746346}
   - {fileID: 752819156}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &629232099
 GameObject:
@@ -15552,8 +15673,8 @@ GameObject:
   m_Name: Non Shadow L (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &629232100
 Transform:
@@ -16248,7 +16369,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24236
+  m_Name: pb_Mesh31034
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -16412,7 +16533,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24704
+  m_Name: pb_Mesh31836
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -16576,7 +16697,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24206
+  m_Name: pb_Mesh30978
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -16752,8 +16873,8 @@ GameObject:
   m_Name: Spawn Non-Shadow Wall (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &655234938
 Transform:
@@ -17084,7 +17205,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-39798
+  m_Name: pb_Mesh31648
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -17248,7 +17369,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24110
+  m_Name: pb_Mesh30880
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -17412,7 +17533,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh26740
+  m_Name: pb_Mesh30852
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -17588,8 +17709,8 @@ GameObject:
   m_Name: Spawn Non-Shadow Wall (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &678184809
 Transform:
@@ -17920,7 +18041,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-21504
+  m_Name: pb_Mesh31498
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -18190,8 +18311,8 @@ GameObject:
   m_Name: Spawn Non-Shadow Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &719758733
 Transform:
@@ -18534,8 +18655,8 @@ GameObject:
   m_Name: Z
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &737813383
 Transform:
@@ -19788,8 +19909,8 @@ GameObject:
   m_Name: Spawn Non-Shadow Wall (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &752819156
 Transform:
@@ -20120,7 +20241,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-48562
+  m_Name: pb_Mesh31866
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -20296,8 +20417,8 @@ GameObject:
   m_Name: Spawn Non-Shadow Wall (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &753869268
 Transform:
@@ -20640,8 +20761,8 @@ GameObject:
   m_Name: Spawn Non-Shadow Wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &760031176
 Transform:
@@ -20984,8 +21105,8 @@ GameObject:
   m_Name: Non Shadow L (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &823552104
 Transform:
@@ -21680,7 +21801,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24510
+  m_Name: pb_Mesh31586
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -21844,7 +21965,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-5862
+  m_Name: pb_Mesh31278
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -22020,8 +22141,8 @@ GameObject:
   m_Name: Squiggle Type 1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &842972040
 Transform:
@@ -23820,8 +23941,8 @@ GameObject:
   m_Name: Spawn Shadow Wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &847332373
 Transform:
@@ -24164,8 +24285,8 @@ GameObject:
   m_Name: U Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &864615129
 Transform:
@@ -25418,8 +25539,8 @@ GameObject:
   m_Name: Non Shadow L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &864679731
 Transform:
@@ -26114,7 +26235,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-12052
+  m_Name: pb_Mesh30516
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -26278,7 +26399,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh23882
+  m_Name: pb_Mesh30410
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -26454,8 +26575,8 @@ GameObject:
   m_Name: Squiggle Type 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &922360472
 Transform:
@@ -28242,7 +28363,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-4416
+  m_Name: pb_Mesh31324
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -28418,8 +28539,8 @@ GameObject:
   m_Name: Small Wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &938836391
 Transform:
@@ -28945,7 +29066,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &961539122
 MeshCollider:
@@ -29264,7 +29385,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &981584247
 Mesh:
@@ -29272,7 +29393,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-48908
+  m_Name: pb_Mesh30790
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -29436,7 +29557,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-22654
+  m_Name: pb_Mesh31712
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -29662,7 +29783,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24124
+  m_Name: pb_Mesh30894
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -29838,8 +29959,8 @@ GameObject:
   m_Name: Reversed Non Shadow L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1012597484
 Transform:
@@ -30546,8 +30667,8 @@ GameObject:
   m_Name: Shadow L (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1065276992
 Transform:
@@ -31598,8 +31719,8 @@ GameObject:
   m_Name: U Wall(Clone) (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1074871886
 Transform:
@@ -32852,8 +32973,8 @@ GameObject:
   m_Name: Shadow L (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1083408665
 Transform:
@@ -33560,8 +33681,8 @@ GameObject:
   m_Name: Non Shadow L (2)(Clone) (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1086300968
 Transform:
@@ -34256,7 +34377,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-19308
+  m_Name: pb_Mesh31150
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -34432,8 +34553,8 @@ GameObject:
   m_Name: Non Shadow L (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1092205324
 Transform:
@@ -35140,8 +35261,8 @@ GameObject:
   m_Name: Spawn Shadow Wall (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1096220230
 Transform:
@@ -35484,8 +35605,8 @@ GameObject:
   m_Name: Spawn Shadow Wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1105602269
 Transform:
@@ -35816,7 +35937,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24610
+  m_Name: pb_Mesh31676
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -35980,7 +36101,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-21062
+  m_Name: pb_Mesh31880
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -36144,7 +36265,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24664
+  m_Name: pb_Mesh31782
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -36308,7 +36429,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-41092
+  m_Name: pb_Mesh30502
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -36472,7 +36593,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24338
+  m_Name: pb_Mesh31264
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -36648,8 +36769,8 @@ GameObject:
   m_Name: Spawn Non-Shadow Wall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1161027940
 Transform:
@@ -36980,7 +37101,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-19928
+  m_Name: pb_Mesh31852
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -37156,8 +37277,8 @@ GameObject:
   m_Name: Spawn Wall Pole (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1171909871
 Transform:
@@ -37500,8 +37621,8 @@ GameObject:
   m_Name: X
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1178737633
 Transform:
@@ -38742,7 +38863,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-44052
+  m_Name: pb_Mesh31894
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -38906,7 +39027,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-5238
+  m_Name: pb_Mesh30588
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -39082,8 +39203,8 @@ GameObject:
   m_Name: Non Shadow L (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1207207022
 Transform:
@@ -39778,7 +39899,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-26660
+  m_Name: pb_Mesh30928
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -39954,8 +40075,8 @@ GameObject:
   m_Name: Reversed Non Shadow L (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1213746898
 Transform:
@@ -40650,7 +40771,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh23932
+  m_Name: pb_Mesh30532
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -40826,8 +40947,8 @@ GameObject:
   m_Name: U Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1227045568
 Transform:
@@ -42068,7 +42189,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24426
+  m_Name: pb_Mesh31426
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -42244,8 +42365,8 @@ GameObject:
   m_Name: Non Shadow L (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1238747923
 Transform:
@@ -42952,8 +43073,8 @@ GameObject:
   m_Name: Spawn Non-Shadow Wall (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1244027243
 Transform:
@@ -43278,6 +43399,11 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!4 &1253784436 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7273824614503538400, guid: c5dc4a46997c1314596bd5d9d87f2f1f, type: 3}
+  m_PrefabInstance: {fileID: 140983532}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1261090285
 GameObject:
   m_ObjectHideFlags: 0
@@ -43296,8 +43422,8 @@ GameObject:
   m_Name: Shadow L (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1261090286
 Transform:
@@ -43992,7 +44118,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-34260
+  m_Name: pb_Mesh31006
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -44156,7 +44282,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24352
+  m_Name: pb_Mesh31294
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -44320,7 +44446,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-47124
+  m_Name: pb_Mesh31764
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -44484,7 +44610,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-20680
+  m_Name: pb_Mesh31730
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -44648,7 +44774,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24690
+  m_Name: pb_Mesh31822
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -44824,8 +44950,8 @@ GameObject:
   m_Name: Small Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1331806971
 Transform:
@@ -45350,8 +45476,8 @@ GameObject:
   m_Name: Non Shadow L (2)(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1354700960
 Transform:
@@ -46058,8 +46184,8 @@ GameObject:
   m_Name: Spawn Shadow Wall (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1358436158
 Transform:
@@ -46390,7 +46516,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-31990
+  m_Name: pb_Mesh31064
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -46566,8 +46692,8 @@ GameObject:
   m_Name: Z (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1364280955
 Transform:
@@ -47808,7 +47934,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-18148
+  m_Name: pb_Mesh31020
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -47984,8 +48110,8 @@ GameObject:
   m_Name: Non Shadow L (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1440454114
 Transform:
@@ -48692,8 +48818,8 @@ GameObject:
   m_Name: X (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1461214692
 Transform:
@@ -49951,8 +50077,8 @@ GameObject:
   m_Name: Spawn Shadow Wall (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1467232447
 Transform:
@@ -50283,7 +50409,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh23988
+  m_Name: pb_Mesh30700
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -50447,7 +50573,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-15848
+  m_Name: pb_Mesh30440
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -50623,8 +50749,8 @@ GameObject:
   m_Name: Spawn Non-Shadow Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1471433487
 Transform:
@@ -50955,7 +51081,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24630
+  m_Name: pb_Mesh31698
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -51119,7 +51245,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24036
+  m_Name: pb_Mesh30776
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -51283,7 +51409,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24192
+  m_Name: pb_Mesh30964
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -51447,7 +51573,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24386
+  m_Name: pb_Mesh31358
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -51623,8 +51749,8 @@ GameObject:
   m_Name: Non Shadow L (2)(Clone) (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1498285254
 Transform:
@@ -52663,7 +52789,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24272
+  m_Name: pb_Mesh31132
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -52827,7 +52953,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24096
+  m_Name: pb_Mesh30866
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -53003,8 +53129,8 @@ GameObject:
   m_Name: Shadow L (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1505406632
 Transform:
@@ -53711,8 +53837,8 @@ GameObject:
   m_Name: Spawn Non-Shadow Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1508540830
 Transform:
@@ -54043,7 +54169,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-8988
+  m_Name: pb_Mesh31380
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -54207,7 +54333,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-29170
+  m_Name: pb_Mesh31750
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -54383,8 +54509,8 @@ GameObject:
   m_Name: Shadow L (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1522299532
 Transform:
@@ -55104,7 +55230,7 @@ Transform:
   m_Children:
   - {fileID: 2029978610}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1540584330
 MonoBehaviour:
@@ -55137,8 +55263,8 @@ GameObject:
   m_Name: Spawn Shadow Wall (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1545620158
 Transform:
@@ -55469,7 +55595,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2152
+  m_Name: pb_Mesh30566
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -55633,7 +55759,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24050
+  m_Name: pb_Mesh30820
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -55809,8 +55935,8 @@ GameObject:
   m_Name: Spawn Shadow Wall (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1590181570
 Transform:
@@ -56141,7 +56267,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2976
+  m_Name: pb_Mesh31078
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -56317,8 +56443,8 @@ GameObject:
   m_Name: Spawn Non-Shadow Wall (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1599937216
 Transform:
@@ -56649,7 +56775,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-35034
+  m_Name: pb_Mesh31198
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -56813,7 +56939,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-7418
+  m_Name: pb_Mesh31102
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -56971,13 +57097,74 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1001 &1621444095
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7453815246537575379, guid: 3bd91c39ba9ccba4c93ec372109c4b6c, type: 3}
+      propertyPath: m_Name
+      value: AI
+      objectReference: {fileID: 0}
+    - target: {fileID: 7453815246537575384, guid: 3bd91c39ba9ccba4c93ec372109c4b6c, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7453815246537575384, guid: 3bd91c39ba9ccba4c93ec372109c4b6c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7453815246537575384, guid: 3bd91c39ba9ccba4c93ec372109c4b6c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7453815246537575384, guid: 3bd91c39ba9ccba4c93ec372109c4b6c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7453815246537575384, guid: 3bd91c39ba9ccba4c93ec372109c4b6c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7453815246537575384, guid: 3bd91c39ba9ccba4c93ec372109c4b6c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7453815246537575384, guid: 3bd91c39ba9ccba4c93ec372109c4b6c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7453815246537575384, guid: 3bd91c39ba9ccba4c93ec372109c4b6c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7453815246537575384, guid: 3bd91c39ba9ccba4c93ec372109c4b6c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7453815246537575384, guid: 3bd91c39ba9ccba4c93ec372109c4b6c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7453815246537575384, guid: 3bd91c39ba9ccba4c93ec372109c4b6c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7453815246537575385, guid: 3bd91c39ba9ccba4c93ec372109c4b6c, type: 3}
+      propertyPath: destination
+      value: 
+      objectReference: {fileID: 1253784436}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3bd91c39ba9ccba4c93ec372109c4b6c, type: 3}
 --- !u!43 &1640270861
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-46710
+  m_Name: pb_Mesh30676
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -57153,8 +57340,8 @@ GameObject:
   m_Name: Non Shadow L (2)(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1693459567
 Transform:
@@ -57849,7 +58036,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-11136
+  m_Name: pb_Mesh31212
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -58025,8 +58212,8 @@ GameObject:
   m_Name: Non Shadow L (2)(Clone) (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1714935395
 Transform:
@@ -58733,8 +58920,8 @@ GameObject:
   m_Name: Spawn Shadow Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1724264618
 Transform:
@@ -59065,7 +59252,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-39168
+  m_Name: pb_Mesh31548
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -59241,8 +59428,8 @@ GameObject:
   m_Name: Spawn Shadow Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1735719263
 Transform:
@@ -59573,7 +59760,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24288
+  m_Name: pb_Mesh31182
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -59737,7 +59924,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-30358
+  m_Name: pb_Mesh31796
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -59901,7 +60088,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-25630
+  m_Name: pb_Mesh30632
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -60065,7 +60252,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-20286
+  m_Name: pb_Mesh30834
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -60241,8 +60428,8 @@ GameObject:
   m_Name: Z (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1767835514
 Transform:
@@ -61495,8 +61682,8 @@ GameObject:
   m_Name: Non Shadow L (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1772147385
 Transform:
@@ -62203,8 +62390,8 @@ GameObject:
   m_Name: Shadow L (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1777007782
 Transform:
@@ -62899,7 +63086,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2414
+  m_Name: pb_Mesh30616
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -63063,7 +63250,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24318
+  m_Name: pb_Mesh31226
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -63239,8 +63426,8 @@ GameObject:
   m_Name: Non Shadow L (2)(Clone) (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1837581824
 Transform:
@@ -63935,7 +64122,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-23128
+  m_Name: pb_Mesh31166
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -64111,8 +64298,8 @@ GameObject:
   m_Name: Reversed Non Shadow L (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1880722025
 Transform:
@@ -64819,8 +65006,8 @@ GameObject:
   m_Name: Reversed Shadow L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1903757240
 Transform:
@@ -65859,7 +66046,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-37372
+  m_Name: pb_Mesh30740
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -66023,7 +66210,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh23896
+  m_Name: pb_Mesh30424
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -66187,7 +66374,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh23970
+  m_Name: pb_Mesh30660
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -66351,7 +66538,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24558
+  m_Name: pb_Mesh31632
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -66527,8 +66714,8 @@ GameObject:
   m_Name: X (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1953514160
 Transform:
@@ -67781,8 +67968,8 @@ GameObject:
   m_Name: Reversed Non Shadow L (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1953879121
 Transform:
@@ -68477,7 +68664,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24596
+  m_Name: pb_Mesh31662
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -68641,7 +68828,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-40454
+  m_Name: pb_Mesh31250
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -68817,8 +69004,8 @@ GameObject:
   m_Name: Shadow L (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1976315405
 Transform:
@@ -69513,7 +69700,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-28138
+  m_Name: pb_Mesh31912
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -69677,7 +69864,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-35880
+  m_Name: pb_Mesh31482
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -69841,7 +70028,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-38364
+  m_Name: pb_Mesh31444
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -70017,8 +70204,8 @@ GameObject:
   m_Name: Shadow L (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2016795283
 Transform:
@@ -70725,8 +70912,8 @@ GameObject:
   m_Name: Spawn Shadow Wall (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2016962604
 Transform:
@@ -71057,7 +71244,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24466
+  m_Name: pb_Mesh31518
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -71221,7 +71408,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24494
+  m_Name: pb_Mesh31564
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -71397,8 +71584,8 @@ GameObject:
   m_Name: Spawn Non-Shadow Wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2026313427
 Transform:
@@ -71741,8 +71928,8 @@ GameObject:
   m_Name: Reversed Non Shadow L (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2029516738
 Transform:
@@ -72537,7 +72724,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24524
+  m_Name: pb_Mesh31600
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -72713,8 +72900,8 @@ GameObject:
   m_Name: Spawn Wall Pole
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2059570753
 Transform:
@@ -73057,8 +73244,8 @@ GameObject:
   m_Name: Shadow L (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2088779415
 Transform:
@@ -73753,7 +73940,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-22050
+  m_Name: pb_Mesh30720
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -73929,8 +74116,8 @@ GameObject:
   m_Name: Shadow L (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2104829464
 Transform:
@@ -74637,8 +74824,8 @@ GameObject:
   m_Name: Spawn Non-Shadow Wall (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2106746346
 Transform:
@@ -74981,8 +75168,8 @@ GameObject:
   m_Name: Non Shadow L (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2120252072
 Transform:
@@ -75689,8 +75876,8 @@ GameObject:
   m_Name: Spawn Non-Shadow Wall (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2126702019
 Transform:
@@ -76021,7 +76208,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24220
+  m_Name: pb_Mesh30992
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -76185,7 +76372,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1650
+  m_Name: pb_Mesh31118
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -76361,8 +76548,8 @@ GameObject:
   m_Name: Spawn Shadow Wall (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2147289518
 Transform:
@@ -76700,7 +76887,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1725183560085106459, guid: 30c5e772412616f4a9db1e5b00fa8285, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1725183560085106459, guid: 30c5e772412616f4a9db1e5b00fa8285, type: 3}
       propertyPath: m_LocalPosition.x
@@ -76742,5 +76929,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1725183561305092850, guid: 30c5e772412616f4a9db1e5b00fa8285, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: a5d5aaaa8a129d447a1e8fb98d435e3f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30c5e772412616f4a9db1e5b00fa8285, type: 3}
