@@ -297,7 +297,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destination: {fileID: 1812607664}
+<<<<<<< Updated upstream
   agent: {fileID: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!195 &849513166
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -335,12 +338,22 @@ MonoBehaviour:
   viewRadius: 5
   viewAngle: 45
   targetMask:
+<<<<<<< Updated upstream
     m_Bits: 64
   obstacleMask:
     m_Bits: 128
   sightlineDelay: -1
   deathSprite: {fileID: 1085314154, guid: 7d1f66b490ebc114a97d8b52a6c18f0f, type: 3}
   search: 1
+=======
+    serializedVersion: 2
+    m_Bits: 64
+  obstacleMask:
+    serializedVersion: 2
+    m_Bits: 128
+  sightlineDelay: -1
+  deathSprite: {fileID: 1085314154, guid: 7d1f66b490ebc114a97d8b52a6c18f0f, type: 3}
+>>>>>>> Stashed changes
 --- !u!1 &890902776
 GameObject:
   m_ObjectHideFlags: 0
@@ -567,9 +580,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e94299b7c663f94ca9f1ba1b25e83e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   cam: {fileID: 0}
   rb: {fileID: 0}
   anim: {fileID: 0}
+=======
+>>>>>>> Stashed changes
   mainSprite: 0
 --- !u!212 &1428354525
 SpriteRenderer:
@@ -620,7 +636,11 @@ SpriteRenderer:
   m_Size: {x: 2, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+<<<<<<< Updated upstream
   m_WasSpriteAssigned: 0
+=======
+  m_WasSpriteAssigned: 1
+>>>>>>> Stashed changes
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1812607663
@@ -672,7 +692,10 @@ MonoBehaviour:
   - {x: 0, y: 1, z: 0}
   - {x: 5, y: 1, z: 0}
   - {x: 0, y: 1, z: -5}
+<<<<<<< Updated upstream
   index: 0
+=======
+>>>>>>> Stashed changes
 --- !u!135 &1812607666
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -868,7 +891,11 @@ SpriteRenderer:
   m_Size: {x: 0.8888889, y: 1.8194444}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+<<<<<<< Updated upstream
   m_WasSpriteAssigned: 0
+=======
+  m_WasSpriteAssigned: 1
+>>>>>>> Stashed changes
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &2048856110
@@ -883,9 +910,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e94299b7c663f94ca9f1ba1b25e83e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   cam: {fileID: 0}
   rb: {fileID: 0}
   anim: {fileID: 0}
+=======
+>>>>>>> Stashed changes
   mainSprite: 1
 --- !u!95 &2048856111
 Animator:
