@@ -40,10 +40,19 @@ public class AIFOV : MonoBehaviour
         }
     }
 
+    IEnumerator _PlayAlertSound()
+    {
+        AudioSource source = GameObject.Find("alertSource").GetComponent<AudioSource>();
+        source.Play();
+        yield return new WaitForSeconds(3);
+        source.Stop();
+    }
+
     private void FindVisibleTargets()
     {
         Collider[] targetsInViewRadius = Physics.OverlapSphere(transform.position, viewRadius, targetMask);
-        foreach(Collider c in targetsInViewRadius)
+        AudioSource source = GameObject.Find("alertSource").GetComponent<AudioSource>();
+        foreach (Collider c in targetsInViewRadius)
         {
             Transform target = c.transform;
             Vector3 DirectionToTarget = (target.position - transform.position).normalized;
@@ -57,13 +66,13 @@ public class AIFOV : MonoBehaviour
                     Debug.Log(gameObject.name + " sees the player.");
                     if (sightlineDelay < 0) {
                         healthBar.localScale = new Vector3(healthScale -= Time.fixedDeltaTime, 1, 1);
+                        if (!source.isPlaying) StartCoroutine(_PlayAlertSound());
                     } 
                     else
                     {
                         healthBar.localScale = new Vector3(healthScale -= (sightlineDelay / 2), 1, 1);
+                        if (!source.isPlaying) StartCoroutine(_PlayAlertSound());
                     }
-                    AudioSource source = GameObject.Find("alertSource").GetComponent<AudioSource>();
-                    if (!source.isPlaying) source.Play();
                     if(healthScale < 0)
                     {
                         source.Stop();
@@ -77,7 +86,6 @@ public class AIFOV : MonoBehaviour
                         GameObject.Find("UIController").GetComponent<UIController>().IncreaseSuspicionTally();
                     }
                 }
-                
             }
         }
     }
