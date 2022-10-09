@@ -69,6 +69,7 @@ public class AIFOV : MonoBehaviour
                         transform.Find("Sprite").gameObject.GetComponent<Animator>().SetBool("dead", true);
                         healthBar.gameObject.GetComponent<SpriteRenderer>().enabled = false;
                         search = false;
+                        GameObject.Find("UIController").GetComponent<UIController>().IncreaseSuspicionTally();
                     }
                 }
                 

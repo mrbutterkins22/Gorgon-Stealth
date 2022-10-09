@@ -8,6 +8,7 @@ public class FoodController : MonoBehaviour
     {
         if(other.gameObject.layer == LayerMask.NameToLayer("Player"))
         {
+            GameObject.Find("UIController").GetComponent<UIController>().IncreaseFoodTally();
             Destroy(gameObject);
         }
     }
