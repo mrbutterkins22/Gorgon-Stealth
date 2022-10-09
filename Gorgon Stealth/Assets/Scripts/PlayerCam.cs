@@ -28,7 +28,7 @@ public class PlayerCam : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.LeftControl))
         {
             topDown = true;
-            GameObject.Find("CameraPos").transform.localPosition = new Vector3(0, 10, 0);
+            GameObject.Find("CameraPos").transform.localPosition = new Vector3(0, 10, -2);
             GameObject.Find("Player").transform.Find("Capsule").gameObject.GetComponent<SpriteRenderer>().enabled = true;
         }
         if(Input.GetKeyUp(KeyCode.LeftControl))
@@ -54,7 +54,10 @@ public class PlayerCam : MonoBehaviour
         else
         {
             float mouseX = Input.GetAxisRaw("Mouse X") * Time.deltaTime * sensX;
+            float mouseY = Input.GetAxisRaw("Mouse X") * Time.deltaTime * sensY;
             yRotation += mouseX;
+            xRotation -= mouseY;
+            
             transform.rotation = Quaternion.Euler(60, yRotation, 0);
             orientation.rotation = Quaternion.Euler(0, yRotation, 0);
         }

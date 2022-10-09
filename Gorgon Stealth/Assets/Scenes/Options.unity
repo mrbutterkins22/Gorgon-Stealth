@@ -393,8 +393,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: "You are a hungry Gorgon trapped in a maze.  Eat all of the rats to satiate
     your hunger and win.  But there are also friendly NPCs who you must protect. 
-    Don't let them look at you for too long.\nWASD to move \nSpace to Jump\nCTRL
-    to enter bird's eye view mode"
+    Don't let them look at you for too long.  \nYour snakes will warn you if someone's
+    looking at you.\nWASD to move \nSpace to Jump\nCTRL to enter bird's eye view
+    mode"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

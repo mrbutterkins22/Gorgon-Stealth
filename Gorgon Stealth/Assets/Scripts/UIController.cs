@@ -34,6 +34,7 @@ public class UIController : MonoBehaviour
                 minutes--;
                 seconds = 59;
             }
+            if(minutes < 0) SceneManager.LoadScene(4);
             TimerReadoutUpdate();
             yield return new WaitForSeconds(1);
         }
