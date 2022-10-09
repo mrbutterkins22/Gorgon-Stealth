@@ -391,9 +391,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You are a hungry Gorgon trapped in a maze.  Eat all of the rats to satiate
+  m_text: "You are a hungry Gorgon trapped in a maze.  Eat all of the rats to satiate
     your hunger and win.  But there are also friendly NPCs who you must protect. 
-    Don't let them look at you for too long
+    Don't let them look at you for too long.\nWASD to move \nSpace to Jump\nCTRL
+    to enter bird's eye view mode"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -505,8 +506,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -619, y: -126.21}
-  m_SizeDelta: {x: 277.8206, y: 252.4177}
+  m_AnchoredPosition: {x: -606.6254, y: -181.83246}
+  m_SizeDelta: {x: 253.0711, y: 458.8651}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &712853661
 MonoBehaviour:
@@ -528,7 +529,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 1d4592ecc0d084447847b8982aec8dfb, type: 3}
+  m_Texture: {fileID: 2800000, guid: 94df2b4c0c4f83f4c950401e21e56365, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
