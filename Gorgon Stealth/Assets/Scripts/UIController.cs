@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 public class UIController : MonoBehaviour
 {
     [SerializeField] float timeLimit = 300f;
@@ -37,7 +38,7 @@ public class UIController : MonoBehaviour
             yield return new WaitForSeconds(1);
         }
 
-        //load game over screen here
+        SceneManager.LoadScene(4);
     }
 
     private void UpdateFoodTally()
@@ -47,7 +48,7 @@ public class UIController : MonoBehaviour
         TimerReadoutUpdate();
         if(collectedFood == totalFood)
         {
-            //load win screen here
+            SceneManager.LoadScene(3);
         }
     }
 
@@ -62,7 +63,7 @@ public class UIController : MonoBehaviour
         transform.Find("PlayerUI").Find("Sus Readout").gameObject.GetComponent<TextMeshProUGUI>().text = "Suspicion: " + suspicion;
         if(suspicion > maxSuspicion)
         {
-            //load game over screen here
+            SceneManager.LoadScene(4);
         }
     }
 
