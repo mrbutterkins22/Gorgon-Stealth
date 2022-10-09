@@ -58,4 +58,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbd670408892b7745bdc93fb6aff10bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destinations: []
+  destinations:
+  - {x: 10, y: 0, z: 10}
