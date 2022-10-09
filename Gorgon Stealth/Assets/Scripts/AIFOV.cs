@@ -62,8 +62,13 @@ public class AIFOV : MonoBehaviour
                     {
                         healthBar.localScale = new Vector3(healthScale -= (sightlineDelay / 2), 1, 1);
                     }
+                    AudioSource source = GameObject.Find("alertSource").GetComponent<AudioSource>();
+                    if (!source.isPlaying) source.Play();
                     if(healthScale < 0)
                     {
+                        source.Stop();
+                        AudioSource source2 = GameObject.Find("petrifySource").GetComponent<AudioSource>();
+                        source2.Play();
                         GetComponent<NavMeshAgent>().enabled = false;
                         Debug.Log(gameObject.name + " has been petrified.");
                         transform.Find("Sprite").gameObject.GetComponent<Animator>().SetBool("dead", true);

@@ -9,6 +9,8 @@ public class FoodController : MonoBehaviour
         if(other.gameObject.layer == LayerMask.NameToLayer("Player"))
         {
             GameObject.Find("UIController").GetComponent<UIController>().IncreaseFoodTally();
+            AudioSource source = GameObject.Find("foodSource").GetComponent<AudioSource>();
+            source.PlayOneShot(source.clip);
             Destroy(gameObject);
         }
     }
